@@ -8,7 +8,6 @@ import AddNewWord from './components/addWord';
 
 
 const App =()=> {
-
       return (
         <div className="font-loader">
           <Container maxWidth="md">

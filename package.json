@@ -7,7 +7,7 @@
   },
   "scripts": {
     "start": "nodemon ./bin/www",
-    "build": "concurrently  \"npm start\" \"cd client && npm install && npm start\""
+    "build": "npm start"
   },
   "dependencies": {
     "axios": "^0.27.2",

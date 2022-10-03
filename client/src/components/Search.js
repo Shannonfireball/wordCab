@@ -45,12 +45,10 @@ export default function Search() {
     }}>
     <Item>
     <Box
-      component="form"
+      component="span"
       sx={{
         '& > :not(style)': { m: 2, width: '90%' },
       }}
-      noValidate
-      autoComplete="off"
     >
       <TextField id="outlined-basic"
       value={searchTerm}
